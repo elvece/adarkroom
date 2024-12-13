@@ -8,7 +8,7 @@ export const manifest = setupManifest({
   upstreamRepo: 'https://github.com/doublespeakgames/adarkroom',
   supportSite: 'https://github.com/doublespeakgames/adarkroom/issues',
   marketingSite: 'https://adarkroom.doublespeakgames.com/',
-  donationUrl: '',
+  donationUrl: null,
   description: {
     short: 'A minimalist text adventure game for your browser',
     long: 'A Dark Room is a minimalist text adventure game for your browser',
