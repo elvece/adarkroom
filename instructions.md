@@ -1,5 +1,10 @@
-# Instructions for Hello World
+# A Dark Room for StartOS
 
-Instructions go here. These appear to the user in the UI on the Service page under **Instructions**.
+Wrapper repo for building [A Dark Room](https://github.com/doublespeakgames/adarkroom) for running on StartOS.
 
-You are allowed to include basic [Markdown formatting](https://www.markdownguide.org/basic-syntax).
+# Build steps
+
+```
+git submodule update --init
+npm i
+make
