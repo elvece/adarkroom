@@ -5,5 +5,6 @@ Wrapper project for StartOS for [A Dark Room](https://github.com/doublespeakgame
 ## Building from source
 
 ```
+git submodule update --init
 npm i
 make
